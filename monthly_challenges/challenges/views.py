@@ -4,3 +4,13 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("This works!")
+
+
+def monthly_challenge(request,month):
+    response = "Not supported."
+    if month=="January":
+        response = "Januray clicked"
+    elif month == "February":
+        response = "February clicked"
+    return HttpResponse(response)
+
