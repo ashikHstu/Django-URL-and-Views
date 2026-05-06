@@ -19,7 +19,7 @@ monthly_challenges = {
     "september":"September clicked",
     "october":"October clicked",
     "november":"November clicked",
-    "december":"December clicked"
+    "december":None
 }
 
 def index(request):
